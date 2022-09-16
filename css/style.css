@@ -110,7 +110,7 @@ p {
 }
 
 div#image-bg {
-    background-color: #414E75;
+    background-color: var(--cor0);
     position: relative;
     width: 90vw;
     height: 150px;
@@ -127,9 +127,32 @@ img#heart-neon {
     border-radius: 10px;
 }
 
+li.portfolio-list {
+    background-color: var(--cor1);
+    padding: 10px;
+    margin: 5px;
+}
 
+img.portfolio-item {
+    display: block;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: var(--cor3);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+/*
 @media screen and (orientation: portrait){
     nav {
-        /* display: none; */
     }
 }
+*/
