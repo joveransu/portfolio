@@ -16,8 +16,8 @@
             <i id="icon-menu" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
             <menu id="itens">
                 <ul>
-                    <li><a class="option-menu" href="#apresentation">JoverAnsu</a></li>
-                    <li><a class="option-menu" href="#">Portfólio</a></li>
+                    <li><a class="option-menu" href="#title-apresentation">JoverAnsu</a></li>
+                    <li><a class="option-menu" href="#title-portfolio">Portfólio</a></li>
                     <li><a class="option-menu" href="#">Habilidades</a></li>
                     <li><a class="option-menu" href="#">Contatos</a></li>
                 </ul>
@@ -25,20 +25,21 @@
         </nav>
     </header>
     <main>
-        <article id="apresentation">
+        <article id="title-apresentation">
             <h2>Sobre <strong>JoverAnsu</strong></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique cum beatae ullam facere voluptatum numquam, minima, laborum quis ipsam nesciunt culpa architecto, vitae tenetur eius odio unde quas in.</p>
-            <img src="imagens/heart-neon.jpg" alt="https://www.pexels.com/pt-br/foto/sinalizacao-de-neon-vermelho-em-forma-de-coracao-887349/">
+            <div id="image-bg">
+                <img id="heart-neon" src="imagens/heart-neon.jpg" alt="https://www.pexels.com/pt-br/foto/sinalizacao-de-neon-vermelho-em-forma-de-coracao-887349/">
+            </div>
         </article>
         <section>
-            <h2>Portfólio</h2>
-            <div id="portfolio">
-                <div class="project"></div>
-                <div class="project"></div>
-                <div class="project"></div>
-                <div class="project"></div>
-                <input type="button" value="Ver mais...">
-            </div>
+            <h2 id="title-portfolio">Portfólio</h2>
+            <ul>
+                <li><a href="https://joveransu.github.io/projeto-cordel-moderno/">Cordel Moderno</a></li>
+                <li><a href="https://joveransu.github.io/projeto-android/">Projeto Android</a></li>
+                <li><a href="https://joveransu.github.io/projeto-social/">Redes Sociais</a></li>
+            </ul>
+            <input type="button" value="Ver mais...">
         </section>
         <section>
             <h2>Habilidades e tecnológias</h2>
