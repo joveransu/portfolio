@@ -5,3 +5,7 @@ function clickMenu(){
         itens.style.display = 'block';
     }
 }
+
+function showMore(){
+    /*look-more*/
+}
