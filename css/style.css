@@ -18,15 +18,15 @@
 body, html {
     height: 100vh;
 }
-
+/*
 body {
-    /*
+    
     background: transparent url(../imagens/background.png) repeat-y;
     position: center center;
     background-size: contain;
-    */
+    
 }
-
+*/
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
     padding: 15px;
