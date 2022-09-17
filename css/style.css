@@ -112,10 +112,10 @@ p {
 div#image-bg {
     background-color: var(--cor0);
     position: relative;
-    width: 90vw;
+    width: 250px;
     height: 150px;
     border-radius: 10px;
-    margin: 5px;
+    margin: auto;
 }
 
 img#heart-neon {
