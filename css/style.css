@@ -150,6 +150,15 @@ input {
     font-weight: bolder;
     border-radius: 10px;
 }
+
+.logo-tecnology {
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+
 /*
 @media screen and (orientation: portrait){
     nav {
