@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Anderson Alencar</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
 </head>
-<body>
+<body onresize="changeSize()">
     <header>
         <!--<h1>Seja bem vindo(a).</h1>-->
         <nav>
@@ -27,7 +28,7 @@
     <main>
         <article id="title-apresentation">
             <h2>Sobre <strong>JoverAnsu</strong></h2>
-            <p>Olá, Bom dia, meu nome é Anderson, porém mais conhecido como <strong class="special">Ansu</strong>, sou amante da tecnologia desde 2017, tudo começo simples e inesperado, eu gostava muito de jogos (e gosto), jogava em servidores onlines do <abbr title="Grand Theft Auto">GTA</abbr> San Andreas há quase 7 anos na época, foi quando bateu a curiosidade de como tudo aquilo era criado, com isso comecei a estudar <a href="https://www.lua.org/" target="_blank"><strong class="special">.lua</strong></a> e <a href="https://sampwiki.blast.hk/wiki/Main_Page" target="_blank"><strong class="special">PAWN</strong></a>, linguagens usadas nos servidores.</p>
+            <p>Olá, Bom dia, meu nome é Anderson, porém mais conhecido como <span>Ansu</span>, sou amante da tecnologia desde 2017, tudo começo simples e inesperado, eu gostava muito de jogos (e gosto), jogava em servidores onlines do <abbr title="Grand Theft Auto">GTA</abbr> San Andreas há quase 7 anos na época, foi quando bateu a curiosidade de como tudo aquilo era criado, com isso comecei a estudar <a href="https://www.lua.org/" target="_blank"><strong class="special">.lua</strong></a> e <a href="https://sampwiki.blast.hk/wiki/Main_Page" target="_blank"><strong class="special">PAWN</strong></a>, linguagens usadas nos servidores.</p>
 
             <p>Então foi estudando essas linguagens que cheguei ao ponto de aprender alguma que relacione com banco de dados, pois precisava salvar informações dos jogadores, consegui então desenvolver minhas habilidades <a href="https://pt.wikipedia.org/wiki/SQLite"  target="_blank"><strong class="special">SQLite</strong></a> e <a href="https://pt.wikipedia.org/wiki/Mysql"  target="_blank"><strong class="special">MySQL</strong></a></p>
 
@@ -40,23 +41,23 @@
         <section>
             <h2 id="title-portfolio">Portfólio</h2>
             <ul>
-                <li class="portfolio-list">
-                    <a href="https://joveransu.github.io/projeto-cordel-moderno/" target="_blank">
-                        <img class="portfolio-item" src="imagens/cordel-moderno.png" alt="Cordel Moderno">
-                    </a>
-                </li>
-
-                <li class="portfolio-list">
-                    <a href="https://joveransu.github.io/projeto-android/" target="_blank">
-                        <img class="portfolio-item" src="imagens/projeto-android.jpg" alt="Projeto Android">
-                    </a>
-                </li>
-
-                <li class="portfolio-list">
-                    <a href="https://joveransu.github.io/projeto-social/" target="_blank">
-                        <img class="portfolio-item" src="imagens/redes-sociais.jpg" alt="Redes Sociais">
-                    </a>
-                </li>
+                <div id="organization">
+                    <li class="portfolio-list">
+                        <a href="https://joveransu.github.io/projeto-cordel-moderno/" target="_blank">
+                            <img class="portfolio-item" src="imagens/cordel-moderno.png" alt="Cordel Moderno">
+                        </a>
+                    </li>
+                    <li class="portfolio-list">
+                        <a href="https://joveransu.github.io/projeto-android/" target="_blank">
+                            <img class="portfolio-item" src="imagens/projeto-android.jpg" alt="Projeto Android">
+                        </a>
+                    </li>
+                    <li class="portfolio-list">
+                        <a href="https://joveransu.github.io/projeto-social/" target="_blank">
+                            <img class="portfolio-item" src="imagens/redes-sociais.jpg" alt="Redes Sociais">
+                        </a>
+                    </li>
+                </div>
             </ul>
             <input id="look-more" type="button" onclick="showMore()" value="Ver mais...">
         </section>

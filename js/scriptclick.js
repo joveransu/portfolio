@@ -9,3 +9,11 @@ function clickMenu(){
 function showMore(){
     /*look-more*/
 }
+
+function changeSize(){
+    if (window.innerWidth >= 768){
+        itens.style.display = 'block'
+    } else {
+        itens.style.display = 'none'
+    }
+}

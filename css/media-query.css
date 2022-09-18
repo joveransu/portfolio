@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*
+320px — 480px for mobile devices
+481px — 768px for iPads & tablets
+769px — 1024px for small screens like laptop
+1025px — 1200px for large screens like Desktops
+1201px and above for extra large screens like TV
+*/
+:root {
+    --cor0: #414E75;
+    --cor1: #D2DBF7;
+    --cor2: #86A2F5;
+    --cor3: #646875;
+    --cor4: #6B80C2;
+}
+
+@media screen and (min-width: 768px){
+
+    i#icon-menu{
+        display: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    menu#itens{
+        display: block;
+        text-align: right;
+    }
+
+    body {
+        background-color: var(--cor1);
+    }
+
+    main {
+        background-color: white;
+        width: 768px;
+        margin: auto;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    h2 {
+        margin-top: 0px;
+    }
+
+    div#image-bg {
+        width: 400px;
+        height: 250px;
+    }
+    
+    img#heart-neon {
+        width: 350px;
+    }
+
+    #organization {
+        display: block;
+        text-align: center;
+    }
+}

@@ -18,15 +18,7 @@
 body, html {
     height: 100vh;
 }
-/*
-body {
-    
-    background: transparent url(../imagens/background.png) repeat-y;
-    position: center center;
-    background-size: contain;
-    
-}
-*/
+
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
     padding: 15px;
@@ -107,11 +99,19 @@ p {
     text-align: justify;
     text-indent: 7px;
     padding: 10px;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.special::before{
+    content: ' 🔗';
 }
 
 strong.special {
@@ -202,12 +202,3 @@ p.contacts > a:hover {
     transition: .5s;
     text-decoration: underline;
 }
-
-
-
-/*
-@media screen and (orientation: portrait){
-    nav {
-    }
-}
-*/
